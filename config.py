@@ -1,0 +1,5 @@
+from pathlib import Path
+
+DISCORD_TOKEN = "NzYyNjI3Mzg0MzM4OTM5OTE1.GAg8Bp.t1pIBxxz7DZJMrRjUgJTGFetW0vgtmeK3yA3jk"
+DBFOLD = Path("./data/")
+GUILDS = [578446945425555464]
