@@ -21,7 +21,7 @@ class ShutdownView(discord.ui.View):
         await interaction.edit(view=self)
         self.stop()
         self.logger.warning(f"Shutdown by {interaction.user.name} ({interaction.user.id})")
-        exit(0)
+        sys.exit(0)
 
     @discord.ui.button(label="Cancel", style=discord.ButtonStyle.grey)
     async def cancel_callback(
